@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    direction: ltr;
+}
+body {
+    margin: 0px;
+}
+img {
+    margin: auto;
+    display: block;
+}
+.box {
+    width: 380px;
+    height: 420px;
+    border: 1px solid gray;
+    margin: 15px auto;
+    display: block;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+}
+.text {
+    font-size: 30px;
+    padding: 10px 0 0 20px;
+
+}
+form {
+    margin-top: 15px;
+    margin-left: 20px;
+
+}
+label {
+    font-size: 18px;
+    margin-top: 5px;
+    display: block;
+}
+input  {
+    margin-top: 5px;
+    width: 95%;
+    height: 30px;
+ 
+}
+.submit {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: block;
+    width: 95%;
+    height: 30px;
+    background-color: #f0c14b;
+    border: 1px solid grey;
+    cursor: pointer;
+
+
+}
+.button {
+    margin-top: 20px;
+    display: block;
+    width: 95%;
+    height: 30px;
+    background-color: #adb1b8;
+    border: 1px solid grey;
+    cursor: pointer;
+
+}
+.check {
+    width: auto;
+    height: auto;
+    float: left;
+    margin: 5px 0 10px 0 ;
+
+}
+hr {
+    width: 95%;
+    float: left;
+}
+.link {
+    display: block;
+    margin-left: 35%;
+}
+footer {
+    background:linear-gradient(to top,#f0f0f0 65% ,#e6e6e6) ;
+    background:linear-gradient(to right,#ffffff,#e6e6e6,#ffffff);
+    height: 340px;
+    outline: 3px solid #dcdcdc;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+a {
+    text-decoration: none;
+    color: rgb(65, 113, 202);
+}
+.bottom {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#Email:hover,#password:hover {
+    border: 3px solid green;
+    border-radius: 5px;
+}
+.submit:hover,.button:hover {
+    opacity: 0.8;
+}
+
